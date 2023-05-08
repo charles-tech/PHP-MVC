@@ -1,0 +1,23 @@
+{
+  "name": "charles/dev",
+  "description": "crud mvc composer",
+  "license": "proprietery",
+  "authors": [
+    {
+      "name": "Charles"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/",
+      "core\\": "core/"
+    },
+    "files": [
+      "config/config.php"
+    ]
+  }
+}
